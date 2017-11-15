@@ -117,26 +117,6 @@ a.c1 {font-weight: normal;}
           <span class="final" id="final_span"></span> <span class="interim" id=
           "interim_span"></span>
         </div>
-        <div id="copy">
-          <button class="button" id="copy_button" onclick="copyButton()">Copy and Paste</button>
-          <div id="copy_info">
-            <p>
-              Press Control-C to copy text.
-            </p>
-            <p>
-              (Command-C on Mac.)
-            </p>
-          </div><button class="button" id="email_button" onclick="emailButton()">Create
-          Email</button>
-          <div id="email_info">
-            <p>
-              Text sent to default email application.
-            </p>
-            <p>
-              (See chrome://settings/handlers to change.)
-            </p>
-          </div>
-        </div>
         <div class="compact marquee" id="div_language">
           <select id="select_language" onchange="updateCountry()">
             </select>&nbsp;&nbsp; <select id="select_dialect">
@@ -148,22 +128,15 @@ a.c1 {font-weight: normal;}
 var chrmMenuBar = new chrm.ui.MenuBar();
       chrmMenuBar.decorate('nav');
       var chrmLogo = new chrm.ui.Logo('logo');
-
       var chrmscroll = new chrm.ui.SmoothScroll('scroll');
       chrmscroll.init();
-
-
-
   window.___gcfg = { lang: 'en' };
   (function() {
     var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
     po.src = 'https://apis.google.com/js/plusone.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
-
-
-
-
+  
       var doubleTracker = new gweb.analytics.DoubleTrack('floodlight', {
           src: 2542116,
           type: 'clien612',
